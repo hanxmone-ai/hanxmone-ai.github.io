@@ -189,6 +189,20 @@
 
         <article class="project">
           <div>
+            <h3>streaming-chat-demo</h3>
+            <p class="what">TypeScript · Node · server-sent events · open source</p>
+            <p class="body">A chat app where answers appear token by token as the model writes them. A small Node server relays any OpenAI-compatible API as server-sent events; a 15&nbsp;KB client renders the stream as Markdown, without frameworks.</p>
+            <ul>
+              <li>Stop cancels the call to the model too, so nothing is generated or paid for afterwards.</li>
+              <li>Shows time to first token and tokens per second; 49 tests, including SSE edge cases and Markdown safety.</li>
+            </ul>
+            <p class="links"><a href="https://github.com/hanxmone-ai/streaming-chat-demo">View on GitHub →</a></p>
+          </div>
+          <figure class="shot"><img src="assets/chat-demo.png" alt="Chat window with an answer streamed in, including a numbered list, a table and timing figures" width="2000" height="1440" loading="lazy"></figure>
+        </article>
+
+        <article class="project">
+          <div>
             <h3>Knowledge-base assistant</h3>
             <p class="what">Python · RAG · product in private beta</p>
             <p class="body">Upload price lists, manuals and FAQs, then put a chat widget on the website that answers only from them and shows its sources.</p>
